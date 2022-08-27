@@ -174,10 +174,30 @@ header nav ul li:last-of-type a{
     color: #C0C0C0;
     margin-bottom: 82px;
 }
-.list_icon {
+.list_icon{
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    text-align: center;
+}
+.owl-carousel a img{
+    max-width: 128px;
+    margin: auto;
+}
+.owl-dots .owl-dot.active span{
+    background: blueviolet;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    border-radius: 12%;
+    margin: 10px;
+}
+.owl-dots .owl-dot span{
+    background: chartreuse;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border-radius: 50%;
+    margin: 10px;
 }
 .container_text{
     background: black;
