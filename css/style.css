@@ -17,7 +17,7 @@
 }
 header{
     background-color: #181818;
-    padding: 45px 0;
+    padding: 28px 0;
 }
 .container{
     max-width: 1200px;
@@ -369,30 +369,30 @@ body{
 .header-wrapper{
     position: relative;
 }
-.logo-wrap {
-    position: absolute;
-    display:block;
-    left:0;
-    top: -15px;
-    cursor: pointer;
-}
-.logo-wrap a {
-    cursor: pointer;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 900;
-    font-size: 20px;
-    line-height: 20px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #fff;
-    transition : all 0.3s ease-out;
-}
-.logo-wrap a span{
-    color: #8167a9;
-}
-.logo-wrap a:hover {
-    opacity: 0.9;
-}
+/*.logo-wrap {*/
+/*    position: absolute;*/
+/*    display:block;*/
+/*    left:0;*/
+/*    top: -15px;*/
+/*    cursor: pointer;*/
+/*}*/
+/*.logo-wrap a {*/
+/*    cursor: pointer;*/
+/*    font-family: 'Montserrat', sans-serif;*/
+/*    font-weight: 900;*/
+/*    font-size: 20px;*/
+/*    line-height: 20px;*/
+/*    text-transform: uppercase;*/
+/*    letter-spacing: 2px;*/
+/*    color: #fff;*/
+/*    transition : all 0.3s ease-out;*/
+/*}*/
+/*.logo-wrap a span{*/
+/*    color: #8167a9;*/
+/*}*/
+/*.logo-wrap a:hover {*/
+/*    opacity: 0.9;*/
+/*}*/
 .nav-but-wrap{
     position: relative;
     float: right;
@@ -439,12 +439,12 @@ body{
 .menu-icon:hover .menu-icon__line-right {
     width: 30px;
 }
-/*.nav {*/
-/*    position: fixed;*/
-/*    z-index: 98;*/
-/*    left: 0;*/
-/*    top: 0;*/
-/*}*/
+.nav {
+    position: relative;
+    z-index: 98;
+    left: 0;
+    top: 0;
+}
 .nav:before, .nav:after {
     content: "";
     position: fixed;
@@ -475,7 +475,6 @@ body{
     margin: 0;
     z-index: 2;
 }
-
 body.nav-active .nav__content {
     visibility: visible;
 }

@@ -12,6 +12,9 @@
         width: 100%;
         text-align: center;
     }
+    .nav {
+        position: fixed;
+    }
     .nav__list-item {
         position: relative;
         display: block;
@@ -81,6 +84,9 @@
         opacity: 1;
         left: 0;
         width: 100%;
+    }
+    header nav ul {
+        display: block;
     }
 }
 
