@@ -20,7 +20,7 @@
         display: block;
         -webkit-transition-delay: 0.8s;
         transition-delay: 0.8s;
-        opacity: 1;
+        opacity: 0;
         text-align: center;
         color: #fff;
         overflow: hidden;
