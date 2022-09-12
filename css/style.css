@@ -405,7 +405,7 @@ body{
     width: 30px;
     position: relative;
     z-index: 99;
-    top: -10px;
+    top: 4px;
     cursor: pointer;
     display: block;
 }
